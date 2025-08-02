@@ -6,7 +6,7 @@ import json
 app = Flask(__name__)
 
 # Leer las credenciales de Firebase desde el archivo JSON
-with open("firebase_config.json", "r") as f:
+with open("firebase_config 2.json", "r") as f:
     cred_dict = json.load(f)
 
 # Inicializar Firebase solo una vez
@@ -47,3 +47,4 @@ def novedades():
 
 if __name__ == "__main__":
     app.run(debug=True)
+
